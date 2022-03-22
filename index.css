@@ -1,0 +1,167 @@
+:root{
+  --light:hsl(0, 0%, 98%);
+  --very-light:white;
+  --text:black;
+}
+button{
+  color:var(--text);
+}
+
+body {
+  width: 100vw;
+  background: var(--light);
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--text);
+}
+.dropdown-item{
+  color: var(--text);
+}
+.dropdown-menu{
+  background: var(--very-light);
+}
+nav {
+  background-color: var(--very-light);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 300px;
+  height: 192px;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 16px;
+  padding-left: 25px;
+  margin: 20px 0;
+  font-weight: 800;
+}
+
+p {
+  padding-left: 25px;
+  margin: 0;
+}
+
+input {
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+  flex-grow: 0.9;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+#dropdownMenuButton1 {
+  height: 45px;
+  width: 165px;
+  box-shadow: 0px 0px 3px;
+  border-radius: 5px;
+  background-color: var(--very-light);
+  color: var(--text);
+  border: none;
+}
+
+#dropdownMenuButton1:focus {
+  outline: none;
+}
+
+.back {
+  border: none;
+  background: var(--very-light);
+  display: flex;
+  align-items: center;
+  min-width: 80px;
+  height: 30px;
+  box-shadow: 0px 0px 3px;
+  justify-content: center;
+}
+
+.newbtn {
+  border: none;
+  background: var(--very-light);
+  display: flex;
+  align-items: center;
+}
+
+.newbtn:focus {
+  outline: none;
+}
+
+ul {
+  width: 165px;
+}
+input{
+  background: var(--very-light);
+}
+input:focus {
+  outline: none;
+}
+::placeholder{
+  color: var(--text);
+}
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 425px;
+  height: 45px;
+  box-shadow: 0px 0px 3px;
+  border-radius: 5px;
+  background-color: var(--very-light);
+}
+
+.searchBox ion-icon {
+  flex-grow: 0.1;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.country {
+  border-radius: 5px;
+  background: var(--very-light);
+  padding-bottom: 45px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 50px;
+}
+
+.info h1 {
+  padding-left: 25px;
+}
+
+.borders {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
+.borders button {
+  margin-left: 15px;
+}
+
+.flag img {
+  width: 100%;
+  height: auto;
+}
+
+.searchresult {
+  display: none;
+}
